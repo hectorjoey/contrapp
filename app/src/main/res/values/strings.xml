@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">COVID-19 Contact Tracing App</string>
+
+    <string name="full_name">Enter your initials</string>
+    <string name="covid_19">COVID-19 Contact Tracing Tool</string>
+    <string name="risk_assessment_tool">Contact Tracing Tool</string>
+    <string name="section_1_personal_information">Section One: Personal Information</string>
+    <string name="age">Age</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="gender">Select Gender</string>
+    <string name="state">State</string>
+    <string name="lga">LGA of residence</string>
+    <string name="community">Community of residence</string>
+    <string name="screening_for_covid_19_infection">Section One: Screening for COVID-19 infection</string>
+    <string name="right_now_do_you_have_any_these_symptoms">Right now, do you have any of these symptoms?</string>
+    <string name="_1_fever">1. Fever</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="_2_cough">2. Cough</string>
+    <string name="_3_difficult_in_breathing">3. Difficult in Breathing</string>
+    <string name="_4_sneezing">4. Sneezing</string>
+    <string name="_5_chest_pain">5. Chest pain</string>
+    <string name="_6_diarrhea">6. Diarrhoea</string>
+    <string name="_7_other_flu_symptoms">7. Other flu symptoms</string>
+    <string name="_8_sore_throat">8. Sore Throat</string>
+    <string name="have_you_been_in_contact_with_somebody_with_symptoms_of_covid_19">
+        Have you been in contact with somebody with symptoms of COVID-19?</string>
+    <string name="have_you_been_in_or_near_any_health_facility_where_covid_19_has_been_reported">
+        Have you been exposed to any health facility where COVID-19 has been reported?</string>
+    <string name="which_of_these_countries_with_covid_19_have_you_visited_in_the_last_14_days">
+        Which of these countries with COVID-19 have you visited in the last 14 days?</string>
+    <string name="section_3">Section Three:</string>
+    <string name="in_the_last_14_days_have_you_been_around_anyone_with_any_of_these_symptoms">In the last 14 days, have you had close contact with anyone (team/family members inclusive) with suspected/known COVID-19 case (meaning being within 6 feet of an infected person for at least 15 minutes)?</string>
+    <string name="section_4">Section Four:</string>
+    <string name="do_you_have_any_of_these_medical_conditions_that_might_put_you_at_risk_of_severe_forms_of_covid_19_or_for_which_you_have_to_seek_care_at_health_facilities_regularly">Do you have any of these medical conditions that might put you at risk of severe forms of COVID-19 or for which you have to seek care at health facilities regularly?</string>
+    <string name="if_yes_kindly_specify">If yes, kindly specify</string>
+    <string name="_1_kidney_disease">1. Kidney Disease</string>
+    <string name="_2_pregnancy">2. Pregnancy</string>
+    <string name="_3_tuberculosis_tb">3. Tuberculosis (TB)</string>
+    <string name="_4_diabetes">4. Diabetes</string>
+    <string name="_5_liver_disease">5. Liver Disease</string>
+    <string name="_6_chronic_lung_disease">6. Chronic Lung Disease</string>
+    <string name="_7_cancer">7. Cancer</string>
+    <string name="_8_heart_disease">8. Heart Disease</string>
+    <string name="_9_hiv">9. HIV</string>
+    <string name="are_you_on_antiretroviral_therapy">Are you on antiretroviral therapy (drugs for treating HIV)?</string>
+    <string name="do_you_have_enough_drugs_to_last_up_to_3_months">Do you have enough drugs to last up to 3 months?</string>
+    <string name="is_there_someone_in_your_life_who_is_helping_you_with_managing_your_hiv_care_right_now">Is there someone in your life who is helping you with managing your HIV care right now?</string>
+    <string name="in_case_you_start_having_severe_covid_19_symptoms_is_there_someone_in_your_household_who_could_help_you_get_care">In case you start having symptoms suggestive of COVID-19, is there someone in your household who could help you get care?</string>
+    <string name="submit">Submit</string>
+    <string name="thank_you_for_taking_this_self_screening_test">Thank you for taking this self-screening test!</string>
+    <string name="based_on_your_responses_you_may_have_a_high_risk_of_having_covid_infection">Based on your responses, you may have a high risk of having COVID infection</string>
+    <string name="therefore_a_support_staff_from_the_clinic_will_reach_out_to_you_within_6_hours_by_telephone_and_provide_you_with_the_support_you_need">Therefore, a support staff from the clinic will reach out to you within 6 hours by telephone and provide you with the support you need.</string>
+    <string name="you_may_need_to_get_tested_be_isolated_and_treated_for_serious_respiratory_illness">You may need to get tested, be isolated and treated for serious respiratory illness.</string>
+    <string name="close">Close</string>
+    <string name="_9_loss_of_smell">9. Loss of smell</string>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="age_array">
+        <item>18"-"20</item>
+        <item>21"-"30</item>
+        <item>31"-"40</item>
+        <item>41"-50</item>
+        <item>51"-"60</item>
+        <item>Over 60</item>
+    </string-array>
+
+    <string name="location_updated">Location Updated: %1$s</string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="ok">OK</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="address_found">Address found</string>
+    <string name="no_geocoder_available">No geocoder available</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="work_completed">Work Completed</string>
+
+    <string name="map_key"></string>
+
+
+</resources>

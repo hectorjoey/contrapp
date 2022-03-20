@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".activities.HighRiskActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="6dp"
+            android:src="@drawable/high_risk" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="@string/thank_you_for_taking_this_self_screening_test"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:gravity="center"
+            android:text="@string/based_on_your_responses_you_may_have_a_high_risk_of_having_covid_infection"
+            android:textColor="#dd2c00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="Please contact NCDC @ covid19.ncdc.gov.ng or call national toll-free numbers: 112 and 080097000010; or contact your State MOH"
+            android:textColor="#E74C3C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="or visit the nearest COVID-19 testing facility for screening"
+            android:textColor="#4cbbb9"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="arial"
+            android:textColor="#70AD47"
+            android:gravity="center"
+            android:text="The virus is spread by droplets from the nose and mouth when a person coughs or sneezes. "
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Take these measures to protect yourself and people around you from COVID-19"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="•	Wash your hands regularly with soap and water"
+            android:textColor="#4cbbb9"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="•	Maintain at least 1 metre (3 feet) between you and anyone who is coughing or sneezing "
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="•	Avoid touching your Nose, Eyes and Mouth"
+            android:textColor="#4cbbb9"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="•	Cover your mouth and nose with your bent elbow or tissue when you sneeze or cough"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textColor="#4cbbb9"
+            android:text="•	Stay at home and follow the guidance from your local health authority"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="•	Wear a face mask and encourage people around you to wear too"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:gravity="center"
+            android:text="•	If you start experiencing difficulty with breathing, chest pain and sudden onset of any severe illness, Please contact NCDC @ covid-19.ncdc.org or call the national toll-free numbers: 112 and 080097000010; or contact your state MOH."
+            android:textColor="#4cbbb9"
+            android:textSize="15sp" />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/toll_free"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:padding="4dp"-->
+        <!--            android:text="Please contact NCDC @ covid-19.ncdc.org or call the national toll-free numbers: 112 and 080097000010; or contact your state MOH."-->
+        <!--            android:textColor="#649d66"-->
+        <!--            android:gravity="center"-->
+        <!--            android:textSize="15sp"-->
+
+        <!--            android:textStyle="bold" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center_horizontal"
+            android:text="Thank you"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+
+        <Button
+            android:id="@+id/highRiskCloseBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/registration_button"
+            android:text="@string/close"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</ScrollView>

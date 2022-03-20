@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".activities.LowRiskActivity">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:padding="6dp"
+            android:src="@drawable/low_risk"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="Thank you for taking this self-screening test!"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Based on your responses, you are at low risk of having COVID-19"
+            android:textColor="#70AD47"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="arial"
+            android:textColor="#70AD47"
+            android:gravity="center"
+            android:text="The virus is spread by droplets from the nose and mouth when a person coughs or sneezes. "
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Take these measures to protect yourself and people around you from COVID-19"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="•	Wash your hands regularly with soap and water"
+            android:textColor="#4cbbb9"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="•	Maintain at least 1 metre (3 feet) between you and anyone who is coughing or sneezing "
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="•	Avoid touching your Nose, Eyes and Mouth"
+            android:textColor="#4cbbb9"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="•	Cover your mouth and nose with your bent elbow or tissue when you sneeze or cough"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="•	Stay at home and follow the guidance from your local health authority"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="•	Wear a face mask and encourage people around you to wear too"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:gravity="center"
+            android:text="•	If you start experiencing difficulty with breathing, chest pain and sudden onset of any severe illness, Please contact NCDC @ covid-19.ncdc.org or call the national toll-free numbers: 112 and 080097000010; or contact your state MOH."
+           android:textColor="#4cbbb9"
+            android:textSize="15sp" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/toll_free"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="4dp"-->
+<!--            android:text="Please contact NCDC @ covid-19.ncdc.org or call the national toll-free numbers: 112 and 080097000010; or contact your state MOH."-->
+<!--            android:textColor="#649d66"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="15sp"-->
+
+<!--            android:textStyle="bold" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center_horizontal"
+            android:text="Thank you"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/lowRiskCloseBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/registration_button"
+            android:text="Close"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>
